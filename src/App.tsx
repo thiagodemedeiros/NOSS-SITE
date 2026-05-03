@@ -1,5 +1,9 @@
+import Home from "./feature/Home/Home"
+
 export default function App() {
   return (
-    <h1>NOSS</h1>
+    <>
+      <Home/>
+    </>
   )
-}
+};
