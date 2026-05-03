@@ -12,6 +12,11 @@
     background-image: url("../assets/home.section2.background.png");
     background-size: cover;
     background-position: center;
+
+    @media (max-width: 1000px) {
+        height: auto;
+        padding: 100px 0px;
+    }
 }
 
 .HomeSection2Content {
