@@ -40,6 +40,19 @@
     & h4 {
         /* font-size: 60px; */
         font-size: clamp(24px, 7vw, 60px);
+        color: #FEFACD;
+    }
+
+    @media (max-width: 900px) {
+        flex-direction: column;
+
+        & img {
+            width: 14vw;
+        }
+
+        & h4 {
+            margin-bottom: 20px;
+        }
     }
 }
 
@@ -56,5 +69,12 @@
         background-color: #FEFACD;
 
         box-shadow: 8px 8px 0px 0px #000000;
+
+        transition: all 0.2s ease-in-out;
+    }
+
+    & button:hover {
+        background-color: rgb(255, 248, 154);
+        box-shadow: 6px 6px 0px 4px #000000;
     }
 }

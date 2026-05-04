@@ -7,11 +7,11 @@ export default function HomeSection5() {
     return (
         <section className="HomeSection5">
             <div className="HomeSection5Content">
-                <a href={linkGithub} className="HomeSection5Content_Github">
+                <a href={linkGithub} className="HomeSection5Content_Github" target="_blank">
                     <img src={githubLogo} alt="GitHub Logo" />
-                    <h4>/@CumbucaDev</h4>
+                    <h4>/@CumbucaDev/NOSS</h4>
                 </a>
-                <a href={linkGithub} className="HomeSection5Content_Button">
+                <a href={linkGithub} className="HomeSection5Content_Button" target="_blank">
                     <button>
                         Contribua!!!
                     </button>
